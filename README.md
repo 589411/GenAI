@@ -233,6 +233,14 @@ Explore our extensive list of GenAI agent implementations, ranging from simple t
     #### Implementation 🛠️
     Utilizes LangGraph to orchestrate a two-step workflow. The first step involves a search agent and function to gather information from the internet. The second step uses a podcast generation agent and function to create a podcast based on the gathered information.
 
+20. **[Chiron Learning Agent (LangGraph) 🎓](https://github.com/NirDiamant/GenAI_Agents/blob/main/all_agents_tutorials/chiron_learning_agent_langgraph.ipynb)**
+
+    #### Overview 🔎
+    A Feynman-inspired learning agent that guides users through structured checkpoints, combining web search, context processing, and simplified explanations. The system verifies understanding at each step and provides personalized tutoring when needed.
+
+    #### Implementation 🛠️
+    Integrates a language model with separate checkpoint and context management systems. The workflow is orchestrated using LangGraph to process user materials or perform web searches, validate context through embeddings, and verify understanding through targeted questions. The system includes an InMemoryStore with Embedding-based context validation and implements a progressive learning loop that advances based on demonstrated comprehension. When needed, complex concepts are broken down using Feynman-style explanations.
+
 ## 🌟 Special Advanced Technique 🌟
 
 19. **[Sophisticated Controllable Agent for Complex RAG Tasks 🤖](https://github.com/NirDiamant/Controllable-RAG-Agent)**
